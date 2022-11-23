@@ -1,0 +1,192 @@
+11/11/2022 05:06:56 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:06:56 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:06:59 PM - SeleniumDriver - INFO: Element not found with locator: email and  locatorType: id
+11/11/2022 05:06:59 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:07:01 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:07:05 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:07:05 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:07:29 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:07:37 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:07:38 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:38 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:38 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:39 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:07:39 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:39 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:07:39 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:07:40 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:07:45 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:07:45 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:07:48 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:07:49 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:07:49 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:07:49 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:07:56 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:07:56 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:18:42 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:18:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:18:51 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:18:51 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:18:51 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:18:52 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:18:52 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:18:52 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:18:52 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:18:52 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:18:56 PM - SeleniumDriver - INFO: Element not found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:18:56 PM - SeleniumDriver - INFO: Element not found
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:18:59 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:19:00 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:19:00 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:19:00 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:19:09 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:19:09 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:26:49 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:26:58 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:26:59 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:26:59 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:26:59 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:27:00 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:27:00 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:27:00 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:27:00 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:27:02 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:27:07 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:27:07 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:27:10 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:27:20 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:27:20 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:37:23 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:37:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:37:32 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:37:32 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:37:32 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:37:33 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:37:33 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:37:34 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:37:34 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:37:35 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:37:40 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:37:40 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:37:43 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:37:52 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:37:52 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:52:17 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:52:26 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:52:27 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:52:27 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:52:27 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:52:28 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:52:28 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:52:28 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:52:28 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:52:28 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:52:32 PM - SeleniumDriver - INFO: Element not found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:52:32 PM - SeleniumDriver - INFO: Element not found
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:52:37 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:52:38 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:52:38 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:52:38 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:52:38 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:52:38 PM - TestStatus - INFO: ### VERIFICATION FAILED :: + Title Verified
+11/11/2022 05:52:48 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:52:48 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:52:48 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/11/2022 05:52:48 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/11/2022 05:56:44 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:56:55 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:56:55 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:56:55 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:56:55 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:56:56 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:56:56 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:56:57 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:56:57 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:56:57 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:57:02 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:57:02 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:57:05 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:57:05 PM - TestStatus - INFO: ### VERIFICATION FAILED :: + Title Verified
+11/11/2022 05:57:14 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:57:14 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:57:14 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/11/2022 05:57:14 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+11/11/2022 05:59:00 PM - SeleniumDriver - INFO: Element found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:59:11 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:59:11 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:59:11 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:59:11 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:59:13 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:59:13 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:59:13 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:59:13 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:59:13 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:59:18 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+11/11/2022 05:59:18 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:59:21 PM - SeleniumDriver - INFO: Element not found with locator: //a[contains(text(),'Login')] and  locatorType: xpath
+11/11/2022 05:59:21 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[contains(text(),'Login')] locatorType: xpath
+11/11/2022 05:59:21 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Element found with locator: password and  locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
+11/11/2022 05:59:22 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+11/11/2022 05:59:22 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+11/11/2022 05:59:31 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+11/11/2022 05:59:31 PM - SeleniumDriver - INFO: Element Found
+11/11/2022 05:59:31 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+11/11/2022 05:59:31 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL

@@ -1,0 +1,26 @@
+1668204410519	geckodriver	INFO	Listening on 127.0.0.1:51000
+1668204410948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51001" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hg/wyy8d0j577x4zxtyv1p6295r0000gn/T/rust_mozprofile9PTe7A"
+2022-11-11 17:06:51.408 plugin-container[20157:576899] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 17:06:51.408 plugin-container[20157:576899] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668204411430	Marionette	INFO	Marionette enabled
+2022-11-11 17:06:51.444 plugin-container[20157:576899] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 17:06:51.444 plugin-container[20157:576899] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-11 17:06:51.445 plugin-container[20157:576901] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 17:06:51.445 plugin-container[20157:576901] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668204411468	Marionette	INFO	Listening on port 51008
+Read port: 51008
+WebDriver BiDi listening on ws://127.0.0.1:51001
+1668204411636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/hg/wyy8d0j577x4zxtyv1p6295r0000gn/T/rust_mozprofile9PTe7A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51001/devtools/browser/284c8bdb-aa4d-4017-ae8b-880776b928f1
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1524 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2022-11-11 22:07:00.953 plugin-container[20165:577755] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 22:07:00.953 plugin-container[20165:577755] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-11 22:07:00.955 plugin-container[20165:577755] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 22:07:00.955 plugin-container[20165:577755] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-11 22:07:00.956 plugin-container[20165:577769] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-11 22:07:00.956 plugin-container[20165:577769] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.teachable.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.teachable.com."
+1668204425874	Marionette	INFO	Stopped listening on port 51008
