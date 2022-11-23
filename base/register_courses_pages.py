@@ -12,10 +12,8 @@ class RegisterCoursesPage(BasePage):
         super().__init__(driver)
         self.driver = driver
 
-    ################
-    ### Locators ###
-    ################
-    _search_box = "//input[@placeholder='Search']"#"search-courses"
+
+    _search_box = "//input[@placeholder='Search']"
     _course = "//div[contains(@class,'course-listing-title') and contains(text(),'{0}')]"
     _all_courses = "course-listing-title"
     _enroll_button = "enroll-button-top"
