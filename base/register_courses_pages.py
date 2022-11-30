@@ -2,8 +2,6 @@ import utilities.custom_logger as cl
 import logging
 
 from base.BasePage import BasePage
-
-
 class RegisterCoursesPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
@@ -23,12 +21,8 @@ class RegisterCoursesPage(BasePage):
     _submit_enroll = "//div[@id='new_card']//button[contains(text(),'Enroll in Course')]"
     _enroll_error_message = "//div[@id='new_card']//div[contains(text(),'The card number is not a valid credit card number.')]"
 
-    ############################
-    ### Element Interactions ###
-    ############################
-
     def enterCourseName(self, name):
-        self.sendKeys(name, locator=self._search_box)
+        self.sendKeys(name, locator=self._search_box,locatorType="xpath")
 
     def selectCourseToEnroll(self, fullCourseName):
         self.elementClick(locator=self._course.format(fullCourseName), locatorType="xpath")
