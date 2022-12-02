@@ -9,10 +9,10 @@ class LoginPage(BasePage):
         super().__init__(driver)
         self.driver = driver
 
-    _login_link = "//a[contains(text(),'Login')]"
-    _email_field = "username"
-    _password_field = "password"
-    _login_button = "//button[@id='login-submit']//span[contains(text(),'Log in')]"
+    _login_link = "//a[normalize-space()='Sign In']"#//a[contains(text(),'Login')]"
+    _email_field = "//form[@role='form']//input[@id='email']"#"username"
+    _password_field = "//input[@id='password']"#password"
+    _login_button = "//input[@value='Login']"#//button[@id='login-submit']//span[contains(text(),'Log in')]"
     _home_icon = "//a[normalize-space()='Home']"
     _continueBtn = "//button[@id='login-submit']//span[contains(text(),'Continue')]"
     _search_box = "//input[@placeholder='Search']"
@@ -33,10 +33,10 @@ class LoginPage(BasePage):
         passField.clear()
 
     def enterEmail(self, email):
-        self.sendKeys(email, self._email_field)
+        self.sendKeys(email, self._email_field, locatorType="xpath")
 
     def enterPassword(self, password):
-        self.sendKeys(password, self._password_field)
+        self.sendKeys(password, self._password_field, locatorType="xpath")
 
     def clickLoginButton(self):
         self.elementClick(self._login_button, locatorType="xpath")
@@ -45,10 +45,10 @@ class LoginPage(BasePage):
         self.elementClick(self._home_icon, locatorType="xpath")
 
     def login(self, email="", password=""):
-        #self.clickLoginLink()
+        self.clickLoginLink()
         # self.clearFields()
         self.enterEmail(email)
-        self.clickContinueBtn()
+        #self.clickContinueBtn()
         self.enterPassword(password)
         self.clickLoginButton()
 

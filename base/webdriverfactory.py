@@ -38,7 +38,7 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://id.atlassian.com/login" #"https://courses.letskodeit.com/"https://courses.rahulshettyacademy.com/
+        baseURL = "https://courses.letskodeit.com"#"https://id.atlassian.com/login" #"https://courses.letskodeit.com/"https://courses.rahulshettyacademy.com/
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()

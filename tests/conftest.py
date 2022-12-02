@@ -17,7 +17,8 @@ def oneTimeSetUp(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
     lp = LoginPage(driver)
-    lp.login("leoalak@gmail.com", "TomaDutta*1996")
+    lp.login("toma.dey.dutta@gmail.com", "Alak*1985")
+    #lp.login("leoalak@gmail.com", "TomaDutta*1996")
 
     if request.cls is not None:
         request.cls.driver = driver

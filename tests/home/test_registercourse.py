@@ -17,8 +17,9 @@ class RegisterCoursesTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_jiraSearchPage(self):
         time.sleep(3)
+        self.courses.clickOnAllCoursesLnk()
         self.courses.enterCourseName("JavaScript")
-        # self.courses.selectCourseToEnroll("JavaScript for beginners")
+        self.courses.selectCourseToEnroll()
         # self.courses.enrollCourse(num="10", exp="1220", cvv="10")
         # result = self.courses.verifyEnrollFailed()
         # self.ts.markFinal("test_invalidEnrollment", result,

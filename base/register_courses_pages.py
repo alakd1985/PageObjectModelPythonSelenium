@@ -11,9 +11,9 @@ class RegisterCoursesPage(BasePage):
         self.driver = driver
 
 
-    _search_box = "//input[@placeholder='Search']"
-    _course = "//div[contains(@class,'course-listing-title') and contains(text(),'{0}')]"
-    _all_courses = "course-listing-title"
+    _search_box = "//input[@id='search']"
+    _course = "//img[@alt='course image']"#"//div[contains(@class,'course-listing-title') and contains(text(),'{0}')]"
+    _all_courses = "//a[normalize-space()='ALL COURSES']"
     _enroll_button = "enroll-button-top"
     _cc_num = "cc_field"
     _cc_exp = "cc-exp"
@@ -24,12 +24,13 @@ class RegisterCoursesPage(BasePage):
     def enterCourseName(self, name):
         self.sendKeys(name, locator=self._search_box,locatorType="xpath")
 
-    def selectCourseToEnroll(self, fullCourseName):
-        self.elementClick(locator=self._course.format(fullCourseName), locatorType="xpath")
+    def selectCourseToEnroll(self):
+        self.elementClick(locator=self._course, locatorType="xpath")
 
     def clickOnEnrollButton(self):
         self.elementClick(locator=self._enroll_button)
-
+    def clickOnAllCoursesLnk(self):
+        self.elementClick(locator=self._all_courses, locatorType="xpath")
     def enterCardNum(self, num):
         self.sendKeys(num, locator=self._cc_num)
 
