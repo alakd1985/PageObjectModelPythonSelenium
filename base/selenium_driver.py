@@ -132,6 +132,77 @@ class SeleniumDriver():
             text = None
         return text
 
+    def SwitchFrameByIndex(self, locator, locatorType="xpath"):
+
+        """
+        Get iframe index using element locator inside iframe
+
+        Parameters:
+            1. Required:
+                locator   - Locator of the element
+            2. Optional:
+                locatorType - Locator Type to find the element
+        Returns:
+            Index of iframe
+        Exception:
+            None
+        """
+        result = False
+        try:
+            iframe_list = self.getElementList("//iframe", locatorType="xpath")
+            self.log.info("Length of iframe list: ")
+            self.log.info(str(len(iframe_list)))
+            for i in range(len(iframe_list)):
+                self.switchToFrame(index=iframe_list[i])
+                result = self.isElementPresent(locator, locatorType)
+                if result:
+                    self.log.info("iframe index is:")
+                    self.log.info(str(i))
+                    break
+                self.switchToDefaultContent()
+            return result
+        except:
+            print("iFrame index not found")
+            return result
+
+    def switchToFrame(self, id="", name="", index=None):
+        """
+        Switch to iframe using element locator inside iframe
+
+        Parameters:
+            1. Required:
+                None
+            2. Optional:
+                1. id    - id of the iframe
+                2. name  - name of the iframe
+                3. index - index of the iframe
+        Returns:
+            None
+        Exception:
+            None
+        """
+        if id:
+            self.driver.switch_to.frame(id)
+        if name:
+            self.driver.switch_to.frame(name)
+        if index:
+            self.log.info("Switch frame with index:")
+            self.log.info(str(index))
+            self.driver.switch_to.frame(index)
+
+    def switchToDefaultContent(self):
+        """
+        Switch to default content
+
+        Parameters:
+            None
+        Returns:
+            None
+        Exception:
+            None
+        """
+        self.driver.switch_to.default_content()
+
     def isElementPresent(self, locator="", locatorType="id", element=None):
         """
         Check if element is present -> MODIFIED
