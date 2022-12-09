@@ -51,7 +51,7 @@ class RegisterCoursesPage(BasePage):
         # self.switchToFrame(name="__privateStripeFrame8") this is problem
         self.SwitchFrameByIndex(self._cc_num, locatorType="name")
         self.sendKeysWhenReady(num, locator=self._cc_num, locatorType="name")
-        self.switchToDefaultContent()
+        self.switchToDefaultContent()#
 
     def enterCardExp(self, exp):
         # self.switchToFrame(name="__privateStripeFrame9")
