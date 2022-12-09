@@ -48,7 +48,7 @@ class RegisterCoursesPage(BasePage):
     def enterCardNum(self, num):
         # This frame takes at least 6 seconds to show, it may take more for you
         time.sleep(6)
-        # self.switchToFrame(name="__privateStripeFrame8")
+        # self.switchToFrame(name="__privateStripeFrame8") this is problem
         self.SwitchFrameByIndex(self._cc_num, locatorType="name")
         self.sendKeysWhenReady(num, locator=self._cc_num, locatorType="name")
         self.switchToDefaultContent()
