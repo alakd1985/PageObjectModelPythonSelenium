@@ -147,23 +147,25 @@ class SeleniumDriver():
         Exception:
             None
         """
-        result = False
-        try:
-            iframe_list = self.getElementList("//iframe", locatorType="xpath")
-            self.log.info("Length of iframe list: ")
-            self.log.info(str(len(iframe_list)))
-            for i in range(len(iframe_list)):
-                self.switchToFrame(index=iframe_list[i])
-                result = self.isElementPresent(locator, locatorType)
-                if result:
-                    self.log.info("iframe index is:")
-                    self.log.info(str(i))
-                    break
-                self.switchToDefaultContent()
-            return result
-        except:
-            print("iFrame index not found")
-            return result
+        # result = False
+        # try:
+        #     iframe_list = self.getElementList("//iframe", locatorType="xpath")
+        #     self.log.info("Length of iframe list: ")
+        #     self.log.info(str(len(iframe_list)))
+        #     for i in range(len(iframe_list)):
+        #         self.switchToFrame(index=iframe_list[i])
+        #         result = self.isElementPresent(locator, locatorType)
+        #         if result:
+        #             self.log.info("iframe index is:")
+        #             self.log.info(str(i))
+        #             break
+        #         self.switchToDefaultContent()
+        #     return result
+        # except:
+        #     print("iFrame index not found")
+        #     return result
+        iframe = self.getElement(locator, locatorType="xpath")
+        self.switchToFrame(index=iframe)
 
     def switchToFrame(self, id="", name="", index=None):
         """

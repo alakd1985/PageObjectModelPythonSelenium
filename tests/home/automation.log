@@ -449,3 +449,69 @@
 12/09/2022 09:40:00 AM - RegisterCoursesPage - INFO: Element present with locator: cardnumber locatorType: name
 12/09/2022 09:40:00 AM - RegisterCoursesPage - INFO: iframe index is:
 12/09/2022 09:40:00 AM - RegisterCoursesPage - INFO: 0
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[normalize-space()='Sign In'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //form[@role='form']//input[@id='email'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //form[@role='form']//input[@id='email'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='password'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='password'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@value='Login'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@value='Login'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[normalize-space()='Sign In'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //form[@role='form']//input[@id='email'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //form[@role='form']//input[@id='email'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='password'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='password'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@value='Login'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@value='Login'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //span[@class='text-with-icon'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not present with locator: //span[@class='text-with-icon'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[normalize-space()='Sign In'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //form[@role='form']//input[@id='email'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //form[@role='form']//input[@id='email'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='password'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='password'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Element not found with locator: //input[@value='Login'] and  locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@value='Login'] locatorType: xpath
+12/23/2022 12:34:08 PM - SeleniumDriver - ERROR: Failed to get page title
+12/23/2022 12:34:08 PM - TestStatus - INFO: ### VERIFICATION FAILED :: + Title Verified
+12/23/2022 12:34:08 PM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+12/23/2022 12:34:12 PM - SeleniumDriver - INFO: Element not found with locator: //a[normalize-space()='Home'] and  locatorType: xpath
+12/23/2022 12:34:12 PM - SeleniumDriver - INFO: Element not present with locator: //a[normalize-space()='Home'] locatorType: xpath
+12/23/2022 12:34:12 PM - TestStatus - INFO: ### VERIFICATION FAILED :: + Login was successful
+12/23/2022 12:34:12 PM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+12/23/2022 12:34:12 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+12/23/2022 12:43:32 PM - SeleniumDriver - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[normalize-space()='Sign In'] locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Element found with locator: //form[@role='form']//input[@id='email'] and  locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Sent data on element with locator: //form[@role='form']//input[@id='email'] locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='password'] and  locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='password'] locatorType: xpath
+12/23/2022 12:43:33 PM - SeleniumDriver - INFO: Element found with locator: //input[@value='Login'] and  locatorType: xpath
+12/23/2022 12:43:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@value='Login'] locatorType: xpath
+12/23/2022 12:43:37 PM - RegisterCoursesPage - INFO: Element found with locator: //a[normalize-space()='ALL COURSES'] and  locatorType: xpath
+12/23/2022 12:43:38 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[normalize-space()='ALL COURSES'] locatorType: xpath
+12/23/2022 12:43:38 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@id='search'] and  locatorType: xpath
+12/23/2022 12:43:38 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@id='search'] locatorType: xpath
+12/23/2022 12:43:38 PM - RegisterCoursesPage - INFO: Element found with locator: //img[@alt='course image'] and  locatorType: xpath
+12/23/2022 12:43:42 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //img[@alt='course image'] locatorType: xpath
+12/23/2022 12:43:42 PM - RegisterCoursesPage - INFO: Element found with locator: //button[normalize-space()='Enroll in Course'] and  locatorType: xpath
+12/23/2022 12:43:47 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[normalize-space()='Enroll in Course'] locatorType: xpath
+12/23/2022 12:43:53 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='card-number']/div/iframe and  locatorType: xpath
+12/23/2022 12:43:53 PM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+12/23/2022 12:43:53 PM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+12/23/2022 12:43:53 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='card-expiry']/div/iframe and  locatorType: xpath
+12/23/2022 12:43:54 PM - RegisterCoursesPage - INFO: Element found with locator: exp-date and  locatorType: name
+12/23/2022 12:43:54 PM - RegisterCoursesPage - INFO: Sent data on element with locator: exp-date locatorType: name
+12/23/2022 12:43:54 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='card-cvc']/div/iframe and  locatorType: xpath
+12/23/2022 12:43:54 PM - RegisterCoursesPage - INFO: Element found with locator: cvc and  locatorType: name
+12/23/2022 12:43:54 PM - RegisterCoursesPage - INFO: Sent data on element with locator: cvc locatorType: name
+12/23/2022 12:43:57 PM - RegisterCoursesPage - INFO: Element not found with locator: zen-subscribe sp-buy btn btn-default btn-lg btn-block btn-gtw btn-submit checkout-button dynamic-button and  locatorType: class
+12/23/2022 12:43:57 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: zen-subscribe sp-buy btn btn-default btn-lg btn-block btn-gtw btn-submit checkout-button dynamic-button locatorType: class
+12/23/2022 12:44:09 PM - RegisterCoursesPage - INFO: Element not appeared on the web page
+12/23/2022 12:44:09 PM - RegisterCoursesPage - INFO: Element not displayed with locator:  locatorType: id
+12/23/2022 12:44:09 PM - TestStatus - INFO: ### VERIFICATION FAILED :: + Enrollment Failed Verification
+12/23/2022 12:44:10 PM - TestStatus - INFO: Screenshot save to directory: /Volumes/Alak/Dutta/Python Selenium/PageObjectModelPythonSelenium/base/../screenshots/Enrollment Failed Verification.1671817449787.png
+12/23/2022 12:44:10 PM - TestStatus - ERROR: test_invalidEnrollment ### TEST FAILED
