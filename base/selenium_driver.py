@@ -487,4 +487,5 @@ class SeleniumDriver():
         elif name:
             self.driver.switch_to.frame(name)
         else:
+
             self.driver.switch_to.frame(index)
