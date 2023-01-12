@@ -18,7 +18,7 @@ class RegisterCoursesPage(BasePage):
     _cc_exp = "//div[@id='card-expiry']/div/iframe"
     _cc_cvv = "//div[@id='card-cvc']/div/iframe"
     _submit_enroll = "//div[@id='new_card']//button[contains(text(),'Enroll in Course')]"
-    _enroll_error_message = "//div[@id='new_card']//div[contains(text(),'The card number is not a valid credit card number.')]"
+    _enroll_error_message = "//span[normalize-space()='Your card number is incomplete.']"
 
     def enterCourseName(self, name):
         self.sendKeys(name, locator=self._search_box, locatorType="xpath")
