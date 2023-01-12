@@ -72,8 +72,8 @@ class SeleniumDriver():
         return element
 
     def doRefresh(self):
-
         self.driver.navigate().refresh()
+
 
     def elementClick(self, locator="", locatorType="id", element=None):
         """
