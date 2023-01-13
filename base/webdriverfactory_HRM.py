@@ -11,7 +11,7 @@ Example:
 import traceback
 from selenium import webdriver
 
-class WebDriverFactory():
+class WebDriverFactoryHRM():
 
     def __init__(self, browser):
         """
@@ -31,14 +31,14 @@ class WebDriverFactory():
         PREFERRED: Set the path on the machine where browser will be executed
     """
 
-    def getWebDriverInstance(self):
+    def getWebDriverInstanceHRM(self):
         """
        Get WebDriver Instance based on the browser configuration
 
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://courses.letskodeit.com"
+        baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()
