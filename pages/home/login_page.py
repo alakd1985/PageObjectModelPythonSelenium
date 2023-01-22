@@ -23,6 +23,7 @@ class LoginPage(BasePage):
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="xpath")
 
+
     def clickContinueBtn(self):
         self.elementClick(self._continueBtn, locatorType="xpath")
 

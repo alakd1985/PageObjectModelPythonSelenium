@@ -7,7 +7,7 @@ from utilities.teststatus import TestStatus
 @pytest.mark.usefixtures("oneTimeSetUpHRM", "setUpHRM")
 class LoginTestsHRM(unittest.TestCase):
     @pytest.fixture(autouse=True)
-    def classSetup(self, oneTimeSetUp):
+    def classSetup(self, oneTimeSetUpHRM):
         self.lp = LoginPageHRM(self.driver)
         self.ts = TestStatus(self.driver)
     @pytest.mark.run(order=1)

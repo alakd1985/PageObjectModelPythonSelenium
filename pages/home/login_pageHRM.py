@@ -18,6 +18,7 @@ class LoginPageHRM(BasePageHRM):
     def enterUserName(self, name):
         self.sendKeys(name, locator=self._userName, locatorType="xpath")
 
+
     def enterUserPassword(self, password):
         self.sendKeys(password, locator=self._password, locatorType="xpath")
 
@@ -26,8 +27,8 @@ class LoginPageHRM(BasePageHRM):
 
     def loginHRM(self, username="", password=""):
         self.enterUserName(username)
-        self.enterPassword(password)
-        self.clickLoginButton()
+        self.enterUserPassword(password)
+        self.clickLoginBtn()
 
 
 
