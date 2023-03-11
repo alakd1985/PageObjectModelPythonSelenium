@@ -1,0 +1,28 @@
+Applications required:
+1. python
+2. IDE - PyCharm/VSCode
+3. Allure : https://github.com/allure-framework/allure2/releases
+    a) Download the allure.zip file from the path
+    b) Extract the zip file in c: location
+    c) Add bin file location in system/user environment variables
+
+
+
+Steps:
+1. Download git repo
+2. install required packages from "requirements.txt"
+    pip install "requirement.txt"
+
+3. Running Command:
+pytest --alluredir=<path to report directory> <test.py>
+allure serve <path to report directory>
+4. Running Suites
+pytest --alluredir="D:\alak_reports\suite_1"  test_suite
+
+1. Input file
+2. locators file
+
+
+
+
+

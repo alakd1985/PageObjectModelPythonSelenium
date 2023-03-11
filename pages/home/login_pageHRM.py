@@ -1,7 +1,10 @@
+import json
+from time import sleep
+
 from base.BasePage import BasePage
 from base.BasePageHRM import BasePageHRM
 from base.selenium_driver import SeleniumDriver
-import time
+
 
 
 class LoginPageHRM(BasePageHRM):
@@ -9,26 +12,27 @@ class LoginPageHRM(BasePageHRM):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        data = json.load(open("..\data\input_data.json","r"))
+        self.hrm_page_data = data["hrm_login_page"]
+        locators = json.load(open("..\data\locators.json","r"))
+        self.hrm_locators = locators["hrm_login_page"]
 
-    _userName = "//input[@placeholder='Username']"
-    _password = "//input[@placeholder='Password']"
-    _loginBtn = "//button[normalize-space()='Login']"
+    def enter_username(self, name):
+        self.sendKeys(name, locator=self.hrm_locators["username"], locatorType="xpath")
 
+    def enter_password(self, password):
+        self.sendKeys(password, locator=self.hrm_locators["password"], locatorType="xpath")
 
-    def enterUserName(self, name):
-        self.sendKeys(name, locator=self._userName, locatorType="xpath")
+    def click_login_button(self):
+        self.elementClick(locator=self.hrm_locators["login_button"], locatorType="xpath")
 
+    def login_HRM(self, user):
+        username = self.hrm_page_data[user]["username"]
+        password = self.hrm_page_data[user]["password"]
+        self.enter_username(username)
+        self.enter_password(password)
+        self.click_login_button()
 
-    def enterUserPassword(self, password):
-        self.sendKeys(password, locator=self._password, locatorType="xpath")
-
-    def clickLoginBtn(self):
-        self.elementClick(self._loginBtn, locatorType="xpath")
-
-    def loginHRM(self, username="", password=""):
-        self.enterUserName(username)
-        self.enterUserPassword(password)
-        self.clickLoginBtn()
-
-
-
+    def verify_login_successful(self):
+        sleep(3)
+        return self.isElementPresent(self.hrm_locators["user_dropdown"], locatorType="xpath")

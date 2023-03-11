@@ -1,0 +1,20 @@
+{
+  "base_url": "https://courses.letskodeit.com",
+  "hrm_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "hrm_login_page": {
+    "valid_user" : {
+      "username" : "Admin",
+      "password" : "admin123"
+    }
+  },
+  "login_page": {
+    "valid_user": {
+      "username": "toma.dey.dutta@gmail.com",
+      "password": "Alak*1985"
+    },
+    "invalid_user": {
+      "username": "toma.dey.dutta@gmail.com",
+      "password": "Alak*1986"
+    }
+  }
+}
