@@ -1,4 +1,5 @@
 import json
+import os
 from time import sleep
 
 from base.BasePage import BasePage
@@ -12,9 +13,9 @@ class LoginPageHRM(BasePageHRM):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        data = json.load(open("..\data\input_data.json","r"))
+        data = json.load(open("{}\..\data\input_data.json".format(os.getcwd()),"r"))
         self.hrm_page_data = data["hrm_login_page"]
-        locators = json.load(open("..\data\locators.json","r"))
+        locators = json.load(open("{}\..\data\locators.json".format(os.getcwd()),"r"))
         self.hrm_locators = locators["hrm_login_page"]
 
     def enter_username(self, name):
