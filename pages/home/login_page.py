@@ -1,4 +1,5 @@
 import json
+import os
 import time
 
 from base.BasePage import BasePage
@@ -9,9 +10,10 @@ class LoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        data = json.load(open("..\data\input_data.json", "r"))
+        print("{}\data\input_data.json".format(os.getcwd()))
+        data = json.load(open("{}\..\data\input_data.json".format(os.getcwd()), "r"))
         self.login_data = data["login_page"]
-        locators = json.load(open("..\data\locators.json", "r"))
+        locators = json.load(open("{}\..\data\locators.json".format(os.getcwd()), "r"))
         self.login_locators = locators["login_page"]
 
     def enter_course_name(self, name):
@@ -31,7 +33,6 @@ class LoginPage(BasePage):
         passField.clear()
 
     def enter_email(self, email):
-        self.getElement(locator=self.login_locators["email_field"], locatorType="xpath").clear()
         self.sendKeys(email, self.login_locators["email_field"], locatorType="xpath")
 
     def enter_password(self, password):

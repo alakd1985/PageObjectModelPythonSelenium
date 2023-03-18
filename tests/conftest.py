@@ -1,10 +1,10 @@
 import json
+import os
 import pytest
 
 from selenium import webdriver
 from base.webdriverfactory import WebDriverFactory
 from pages.home.login_page import LoginPage
-
 
 
 @pytest.yield_fixture()
@@ -18,7 +18,7 @@ def setUp():
 def oneTimeSetUp(request, browser):
     print("Running one time setUp")
     web_driver_factory = WebDriverFactory(browser)
-    data = json.load(open("..\data\input_data.json", "r"))
+    data = json.load(open("{}\..\data\input_data.json".format(os.getcwd()), "r"))
     driver = web_driver_factory.get_webdriver_instance(url=data["base_url"])
     # wdf = WebDriverFactory(browser)
     # driver = wdf.getWebDriverInstance()
@@ -43,7 +43,8 @@ def setUpHRM():
 def oneTimeSetUpHRM(request, browser):
     print("Running one time setUp")
     web_driver_factory = WebDriverFactory(browser)
-    data = json.load(open("..\data\input_data.json","r"))
+    data = json.load(open("{}\..\data\input_data.json".format(os.getcwd()), "r"))
+    # data = json.load(open("..\data\input_data.json","r"))
     driver = web_driver_factory.get_webdriver_instance(url=data["hrm_url"])
 
     # # wdf1 = WebDriverFactoryHRM(browser)
