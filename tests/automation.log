@@ -552,3 +552,9 @@
 11/17/2022 08:00:17 PM - SeleniumDriver - INFO: Sent data on element with locator: password locatorType: id
 11/17/2022 08:00:17 PM - SeleniumDriver - INFO: Element found with locator: commit and  locatorType: name
 11/17/2022 08:00:17 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+03/05/2023 04:19:38 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+03/05/2023 04:32:33 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+03/11/2023 11:43:21 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+03/11/2023 07:53:14 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+03/11/2023 07:55:35 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+03/11/2023 07:57:12 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED

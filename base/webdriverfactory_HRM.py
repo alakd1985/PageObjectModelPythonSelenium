@@ -38,7 +38,7 @@ class WebDriverFactoryHRM():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+        # baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()

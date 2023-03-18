@@ -1,69 +1,62 @@
-from base.BasePage import BasePage
-from base.selenium_driver import SeleniumDriver
+import json
 import time
 
+from base.BasePage import BasePage
+from base.selenium_driver import SeleniumDriver
 
 class LoginPage(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        data = json.load(open("..\data\input_data.json", "r"))
+        self.login_data = data["login_page"]
+        locators = json.load(open("..\data\locators.json", "r"))
+        self.login_locators = locators["login_page"]
 
-    _login_link = "//a[normalize-space()='Sign In']"#//a[contains(text(),'Login')]"
-    _email_field = "//form[@role='form']//input[@id='email']"#"username"
-    _password_field = "//input[@id='password']"#password"
-    _login_button = "//input[@value='Login']"#//button[@id='login-submit']//span[contains(text(),'Log in')]"
-    _home_icon = "//a[normalize-space()='Home']"
-    _continueBtn = "//button[@id='login-submit']//span[contains(text(),'Continue')]"
-    _search_box = "//input[@placeholder='Search']"
+    def enter_course_name(self, name):
+        self.sendKeys(name, locator=self.login_locators["search_box"])
 
-    def enterCourseName(self, name):
-        self.sendKeys(name, locator=self._search_box)
-
-    def clickLoginLink(self):
-        self.elementClick(self._login_link, locatorType="xpath")
+    def click_login_link(self):
+        self.elementClick(self.login_locators["login_link"], locatorType="xpath")
 
 
-    def clickContinueBtn(self):
-        self.elementClick(self._continueBtn, locatorType="xpath")
+    def click_continue_button(self):
+        self.elementClick(self.login_locators["continueBtn"], locatorType="xpath")
 
-    def clearFields(self):
-        emailField = self.getElement(locator=self._email_field)
+    def clear_fields(self):
+        emailField = self.getElement(locator=self.login_locators["email_field"])
         emailField.clear()
-        passField = self.getElement(locator=self._password_field)
+        passField = self.getElement(locator=self.login_locators["password_field"])
         passField.clear()
 
-    def enterEmail(self, email):
-        self.sendKeys(email, self._email_field, locatorType="xpath")
+    def enter_email(self, email):
+        self.getElement(locator=self.login_locators["email_field"], locatorType="xpath").clear()
+        self.sendKeys(email, self.login_locators["email_field"], locatorType="xpath")
 
-    def enterPassword(self, password):
-        self.sendKeys(password, self._password_field, locatorType="xpath")
+    def enter_password(self, password):
+        self.sendKeys(password, self.login_locators["password_field"], locatorType="xpath")
 
-    def clickLoginButton(self):
-        self.elementClick(self._login_button, locatorType="xpath")
+    def click_login_button(self):
+        self.elementClick(self.login_locators["login_button"], locatorType="xpath")
 
-    def clickHomeIcon(self):
-        self.elementClick(self._home_icon, locatorType="xpath")
+    def click_home_icon(self):
+        self.elementClick(self.login_locatorshome_icon, locatorType="xpath")
 
-    def login(self, email="", password=""):
-        self.clickLoginLink()
-        # self.clearFields()
-        self.enterEmail(email)
-        #self.clickContinueBtn()
-        self.enterPassword(password)
-        self.clickLoginButton()
+    def login(self, user):
+        username = self.login_data[user]["username"]
+        password = self.login_data[user]["password"]
+        self.click_login_link()
+        self.enter_email(username)
+        self.enter_password(password)
+        self.click_login_button()
 
-
-    def verifyLoginSuccessful(self):
+    def verify_login_successful(self):
         time.sleep(4)
-        result = self.isElementPresent(self._home_icon,
-                                       locatorType="xpath")
-        return result
+        return self.isElementPresent(self.login_locators["home_icon"], locatorType="xpath")
 
     def verifyLoginFailed(self):
-        result = self.isElementPresent("//span[@class='text-with-icon']",
-                                       locatorType="xpath")
-        return result
+        return self.isElementPresent(self.login_locators["verify_login"], locatorType="xpath")
 
     def verifyLoginTitle(self):
         return self.verifyPageTitle("Rahul Shetty Academy")

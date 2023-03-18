@@ -1,0 +1,18 @@
+{
+  "login_page" : {
+    "login_link": "//a[normalize-space()='Sign In']",
+    "email_field": "//form[@role='form']//input[@id='email']",
+    "password_field": "//input[@id='password']",
+    "login_button": "//input[@value='Login']",
+    "home_icon" : "//a[normalize-space()='Home']",
+    "continueBtn" : "//button[@id='login-submit']//span[contains(text(),'Continue')]",
+    "search_box": "//input[@placeholder='Search']",
+    "verify_login" : "//span[@class='text-with-icon']"
+  },
+  "hrm_login_page" : {
+    "username" : "//input[@placeholder='Username']",
+    "password" : "//input[@placeholder='Password']",
+    "login_button" : "//button[normalize-space()='Login']",
+    "user_dropdown" : "//p[@class='oxd-userdropdown-name']"
+  }
+}
